@@ -1,13 +1,14 @@
 import React from 'react';
+import Grid from '@material-ui/core/Grid';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <Grid container spacing={2} className="Grid">
+      <Grid item xs={12} className="GridItem">
         <h1>Welcome to BLORBGEN</h1>
-      </header>
-    </div>
+      </Grid>
+    </Grid>
   );
 }
 
